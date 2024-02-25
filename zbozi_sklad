@@ -1,0 +1,26 @@
+class InventoryItem:
+    def __init__(self, name, category, quantity):
+        self.name = name
+        self.category = category
+        self.quantity = quantity
+        self.sold = 0
+
+    def display_item_details(self):
+        return f"{self.name}({self.category}), kusů na skladě: {self.quantity}"
+    
+    def restock(self, amount):
+        if self.quantity >= amount:
+            self.quantity += amount
+        return self.quantity
+
+    def sell(self, amount):
+        # sem doplň kód
+        self.quantity -= amount
+        return self.quantity
+
+
+item1 = InventoryItem("MacBook Air", "Notebooks", 50)
+print(item1.restock(20))
+print(item1.restock(30))
+print(item1.sell(30))
+print(item1.sell(10))
