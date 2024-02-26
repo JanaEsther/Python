@@ -10,7 +10,7 @@ class BankAccount:
     def withdraw(self, amount):
         self.balance -= amount
 
-  m
+
 account = BankAccount("John Doe", 1000)
 # Má zvýšit atribut balance o 500
 account.deposit(500)

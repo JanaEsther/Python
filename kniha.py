@@ -15,6 +15,14 @@ class Book:
 
     def profit(self):
         return f'Celkový zisk z knihy {self.title} je {int(self.sold*(self.price/self.costs))} Kč.'
+    def rating(self, profit):
+        if profit < 50_000:
+            return "propadák"
+        elif profit > 50_000 and profit <= 500_000:
+            return "průměr"
+        else:
+            return "bestseller"
+
 
 
 
