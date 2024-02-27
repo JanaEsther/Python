@@ -5,6 +5,7 @@ class Book:
         self.price = price
         self.sold = sold
         self.costs = costs
+        
 
 
     def get_info(self):
@@ -15,6 +16,7 @@ class Book:
 
     def profit(self):
         return f'Celkový zisk z knihy {self.title} je {int(self.sold*(self.price/self.costs))} Kč.'
+    
     def rating(self, profit):
         if profit < 50_000:
             return "propadák"
@@ -22,16 +24,16 @@ class Book:
             return "průměr"
         else:
             return "bestseller"
+        
 
 
 
 
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)
+
 print(book_1.get_info())
 print(book_1.get_time_to_read())
-print(book_1.profit())
 print(book_2.get_info())
 print(book_2.get_time_to_read())
-print(book_2.profit())
 
