@@ -7,7 +7,6 @@ class Package:
     def get_info(self):
         return f'Balík na adresu {self.address}, má hmotnost {self.weight} je ve stavu {self._state}.'
 
-
 def delivery_price(self):
     if self.weight <= 10:
         price = 129

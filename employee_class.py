@@ -1,9 +1,9 @@
 class Employee:
-    def __init__(self, name, position, holiday_entitlement, probation_period):
+    def __init__(self, name, position, holiday_entitlement):
         self.name = name
         self.position = position
         self.holiday_entitlement = holiday_entitlement
-        self.probation_period = probation_period
+        
 
     def get_info(self):
         return f"Zaměstnanec {self.name} pracuje na pozici {self.position}."
@@ -14,7 +14,7 @@ class Employee:
             return f"Užij si to."
         else: 
             return f"Bohužel už máš nárok jen na {self.holiday_entitlement} dní."
-    
+
     def __str__(self):
         if self.probation_period == True:
             return f"Je ve zkušební době."
