@@ -14,6 +14,6 @@ class Manager(employee.Employee):
         # Volám metodu __str__() mateřské třídy a k výsledku přidávám další řetězec
         return super().__str__() + f" Má {self.subordinates} podřízených."
 
-manager = Manager("Marian Přísný", "vedoucí konstrukčního oddělení.")
+manager = Manager("Marian Přísný", "vedoucí konstrukčního oddělení", 25, 5, "Volvo")
 manager.take_holiday(10)
 print(manager)
