@@ -45,7 +45,7 @@ class AudioBook(Item):
 
 audiobook = AudioBook("Problém tří těles", 299, 14, "Zbyšek Horák")
 book = Book("Kadet Hornblower", 399, 242, 20000, 650 )
-total_time = audiobook.duration_in_hours() + book.get_time_to_read()
+total_time = audiobook.duration_in_hours() + book.get_time_to_read_1()
 
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)
