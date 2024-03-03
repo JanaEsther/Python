@@ -22,12 +22,7 @@ class Book(Item):
     
     def get_time_to_read_1(self):
         return self.pages * 4
-    
-    def get_time_to_read_1(self):
-        return self.duration_in_hours
 
-    def profit(self):
-        return f'Celkový zisk z knihy {self.title} je {int(self.sold*(self.price/self.costs))} Kč.'
     
     def rating(self, profit):
         if profit < 50_000:
@@ -42,10 +37,17 @@ class AudioBook(Item):
         super().__init__(title, price)
         self.duration_in_hours = duration_in_hours
         self.narrator = narrator
+        
+    def get_time_to_read_1(self):
+        return self.pages *4
+    
+    def profit(self):
+        return f'Celkový zisk z knihy {self.title} je {int(self.sold*(self.price/self.costs))} Kč.'
 
 audiobook = AudioBook("Problém tří těles", 299, 14, "Zbyšek Horák")
 book = Book("Kadet Hornblower", 399, 242, 20000, 650 )
-total_time = audiobook.duration_in_hours() + book.get_time_to_read_1()
+total_time = audiobook.duration_in_hours + book.get_time_to_read_1()
+print(total_time)
 
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)
