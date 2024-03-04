@@ -20,7 +20,7 @@ class Book(Item):
     def get_time_to_read(self):
         return f'Doba potřebná k přečtení knihy {self.title}, která má {self.pages} stran je {int(self.pages)*4} minut.'
     
-    def get_time_to_read_1(self):
+    def get_time_to_read(self):
         return self.pages * 4
 
     
@@ -37,17 +37,28 @@ class AudioBook(Item):
         super().__init__(title, price)
         self.duration_in_hours = duration_in_hours
         self.narrator = narrator
-        
-    def get_time_to_read_1(self):
-        return self.pages *4
-    
+
+    def get_time_to_read(self):
+        return self.duration_in_hours
+
     def profit(self):
         return f'Celkový zisk z knihy {self.title} je {int(self.sold*(self.price/self.costs))} Kč.'
 
-audiobook = AudioBook("Problém tří těles", 299, 14, "Zbyšek Horák")
-book = Book("Kadet Hornblower", 399, 242, 20000, 650 )
-total_time = audiobook.duration_in_hours + book.get_time_to_read_1()
+
+book1 = AudioBook("Problém tří těles", 299, 14.4, "Zbyšek Horák")
+book2 = Book("Kadet Hornblower", 399, 242, 20000, 650 )
+total_time = book1.get_time_to_read() + book2.get_time_to_read()
+total_price = book1.price + book2.price
 print(total_time)
+print(total_price)
+
+favourite_narrator = "Zbyšek Horák"
+item_1 = AudioBook("Problém tří těles", 299, 14.4, "Zbyšek Horák")
+item_2 = Book("Kadet Hornblower", 399, 242)
+item_3 = AudioBook("Odysseus", 389, 13.7, "Lukáš Hlavica")
+
+all_items = [item_1, item_2, item_3]
+
 
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)
@@ -56,4 +67,9 @@ print(book_1.get_info())
 print(book_1.get_time_to_read())
 print(book_2.get_info())
 print(book_2.get_time_to_read())
+
+
+
+
+
 
