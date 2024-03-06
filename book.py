@@ -60,6 +60,9 @@ item_3 = AudioBook("Odysseus", 389, 13.7, "Lukáš Hlavica")
 all_items = [item_1, item_2, item_3]
 
 
+
+
+
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)
 

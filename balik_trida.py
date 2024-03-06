@@ -35,10 +35,49 @@ class ValuablePackage(Package):
         base_price = super().delivery_price()
         return base_price + self.value * 0.5
 
+package_1 = ValuablePackage("Grimmauldovo náměstí 11", 1.9, "doručen", 5500)
+package_2 = RegularPackage("Godrikův důl 47", 1.9, "nedoručen", 0)  # Adjust the value as needed
+package_3 = ValuablePackage("Vydrník svatého Drába 13", 1.9, "nedoručen", 5500)
+
+
+package_list = [package_1, package_2, package_3]
+total_value = 0
+
+for package in package_list:
+    if isinstance(package, (ValuablePackage)):
+        total_value += package.value
+
+print(f"Celková hodnota všech balíků je: {total_value} Kč")
+
+def calculate_total_value(package_list):
+    total_value = 0
+    for package in package_list:
+        if hasattr(package, 'value'):
+            total_value += package.value
+    return total_value
+
+print(f"Celková hodnota všech balíků je: {total_value} Kč")
+
+
+total_value = 0
+for package in package_list:
+    total_value += getattr(package, 'value', 0)
+
+print(f"Celková hodnota všech balíků je: {total_value} Kč")
+
+for package in package_list:
+   if isinstance(package ):
+       total_value += package.value
+print(f"Celková hodnota všech balíků je: {total_value} Kč")
+
+
+
 # Example usage:
-package_1 = RegularPackage('Thámova 221, Praha 8', 15.5, 'doručen', 500)
-package_2 = RegularPackage('Jirsíkova 25, Kácov', 1.5, 'nedoručen', 100)
-package_3 = ValuablePackage('Na Lysinách 460/28, Praha 4', 10, 'doručen', 2000)
+package_1 = RegularPackage('Thámova 221, Praha 8', 15.5, 'doručen', 5500)
+package_2 = RegularPackage('Jirsíkova 25, Kácov', 1.5, 'nedoručen', 10000)
+package_3 = ValuablePackage('Na Lysinách 460/28, Praha 4', 10, 'doručen', 2200)
+
+
 
 print(package_1.get_info())
 print(package_2.get_info())
