@@ -4,7 +4,6 @@ class Employee:
         self.position = position
         self.holiday_entitlement = holiday_entitlement
         self.probation_period = probation_period
-        
 
     def get_info(self):
         return f"Zaměstnanec {self.name} pracuje na pozici {self.position}."
@@ -13,7 +12,7 @@ class Employee:
         if self.holiday_entitlement >= days:
             self.holiday_entitlement -= days
             return f"Užij si to."
-        else: 
+        else:
             return f"Bohužel už máš nárok jen na {self.holiday_entitlement} dní."
 
     def __str__(self):
@@ -22,7 +21,7 @@ class Employee:
         else:
             return f"Není ve zkušební době."
 
-frantisek =Employee ("František Novák", "konstruktér", 25, True)
+frantisek = Employee("František Novák", "konstruktér", 25, True)
 klara = Employee("Klára Nová", "konstruktérka", 25, False)
 print(frantisek.get_info())
 print(str(frantisek))
