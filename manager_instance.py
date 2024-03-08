@@ -194,6 +194,8 @@ print(f"Očekáváme {expected_people} osob.")
 for item in employee_list:
    if hasattr(item, "car"):
         print(f"Tvoje auto {item.car} má naplánovanou výměnu pneumatik.")
+        
+hasattr(Employee, "manager")
 
 #FUNKCE getattr()
 value = getattr(frantisek, attribute,"neznámý atribut")
