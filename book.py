@@ -58,10 +58,17 @@ item_2 = Book("Kadet Hornblower", 399, 242)
 item_3 = AudioBook("Odysseus", 389, 13.7, "Lukáš Hlavica")
 
 all_items = [item_1, item_2, item_3]
+for item in all_items:
+    if isinstance(item, AudioBook) and item.narrator == "Zbyšek Horák":
+        print(item.title)
 
+for item in all_items:
+     if hasattr(item, "narrator")  and item.narrator == favourite_narrator:
+        print(item.title)
 
-
-
+for item in all_items:
+    if getattr(item, "narrator", None) == favourite_narrator:
+       print(item.title)
 
 book_1 = Book('Satanské verše', 550, 490, 50000, 80)
 book_2 = Book("Zlatý dům", 670, 595, 30000, 100)

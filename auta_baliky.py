@@ -1,4 +1,3 @@
-
 class Package:
     def __init__(self, address, weight, state, value, driver):
         self.address = address
@@ -8,12 +7,12 @@ class Package:
         self.driver = driver
     
     def send_message(self):
-        return f"Dnes budeme doručovat váš balík. V případě potřeby kontaktujte řidiče na čísle: {self.phone_number}"
-
-
+        return f"Dnes budeme doručovat váš balík. V případě potřeby kontaktujte řidiče na čísle: {self.driver.phone_number}." 
+    
+    
 class ValuablePackage(Package):
     def __init__(self, address, weight, state, value, driver): 
-        super().__init__(address, weight, state, value,driver)
+        super().__init__(address, weight, state, value, driver)
         self.value = value
 
 class Driver():
@@ -22,13 +21,8 @@ class Driver():
         self.phone_number = phone_number
         
 jirka = Driver("Jirka", 420736856145)
+package_1 = Package('Thámova 221, Praha 8', 15.5, 'doručen', 5500, jirka)
 
-package_1 = Package('Thámova 221, Praha 8', 15.5, 'doručen', 5500, jirka)  
-
-
-
-
-
-
+print(package_1.send_message())
 
 
