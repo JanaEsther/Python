@@ -1,4 +1,4 @@
-import math
+
 
 class Faculty:
     def __init__(self, faculty_name, contact_address):

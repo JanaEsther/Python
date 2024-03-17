@@ -17,8 +17,6 @@ print(values)
 
 
 
-
-
 listek_cislo = int(input("Zadej číslo lístku:"))
 
 if listek_cislo in tombola:

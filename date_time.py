@@ -41,7 +41,10 @@ order = datetime(2019, 11, 13, 19, 47)
 delivery = order + timedelta(minutes=8, seconds=35) + timedelta(minutes=30) + timedelta(minutes=25, seconds=30)
 print(delivery)
 
+from datetime import datetime
 
+def time_to_christmas():
+    return datetime(2024, 12, 24, 18, 0) - datetime.now()
 
 
 

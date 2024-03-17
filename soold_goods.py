@@ -7,8 +7,9 @@ product_stock = {
 }
 
 def count_vendor_sales(data, vendor):
+    total = 0
     for product, quantity in  data.items():
-        if product(vendor):
+        if vendor in product:
             total+= quantity
     return total
 
@@ -16,4 +17,6 @@ apple = count_vendor_sales(product_stock, "Apple")
 
 samsung = count_vendor_sales(product_stock, "Samsung")
 
-
+# Print the results
+print(f"Total Apple sales: {apple}")
+print(f"Total Samsung sales: {samsung}")

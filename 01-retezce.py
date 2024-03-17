@@ -49,3 +49,13 @@ print(seznam_sudy[prostredek_sudy])
 # Tentokrát však u seznamů sudé délky vyberte jako střed číslo blíž k začátku seznamu.
 
 # stejne jako predchozi, pripadne muzeme pricist +1 u sude delky
+
+knihy = ["Problém tří těles", "Temný les", "Vzpomínka na Zemi"]
+cislo = input("Zadej číslo knihy: ")
+cislo = int(cislo)
+cislo = cislo - 1
+
+if cislo < len(knihy):
+    print(f"Do košíku přidána kniha {knihy[cislo]}.")
+else:
+    print("Prosím zadejte číslo v rozsahu 1 až 3")
