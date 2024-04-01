@@ -1,0 +1,1563 @@
+{
+    "pocetCelkem": 1,
+    "ciselniky": [
+        {
+            "kodCiselniku": "PravniForma",
+            "nazevCiselniku": "Pravn\u00ed forma",
+            "polozkyCiselniku": [
+                {
+                    "kod": "000",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zat\u00edm neur\u010deno"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "101",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fyzick\u00e1 osoba podnikaj\u00edc\u00ed dle \u017eivnostensk\u00e9ho z\u00e1kona"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "102",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fyzick\u00e1 osoba podnikaj\u00edc\u00ed dle \u017eivnostensk\u00e9ho z\u00e1kona zapsan\u00e1 v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "103",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Samostatn\u011b hospoda\u0159\u00edc\u00ed roln\u00edk nezapsan\u00fd v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "1991-07-01",
+                    "platnostDo": "2009-04-30"
+                },
+                {
+                    "kod": "104",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Samostatn\u011b hospoda\u0159\u00edc\u00ed roln\u00edk zapsan\u00fd v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "1991-07-01",
+                    "platnostDo": "2009-12-31"
+                },
+                {
+                    "kod": "105",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fyzick\u00e1 osoba podnikaj\u00edc\u00ed dle jin\u00fdch z\u00e1kon\u016f ne\u017e \u017eivnostensk\u00e9ho a z\u00e1kona o zem\u011bd\u011blstv\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "106",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fyzick\u00e1 osoba podnikaj\u00edc\u00ed dle jin\u00fdch z\u00e1kon\u016f ne\u017e \u017eivnostensk\u00e9ho a o samost. hosp. roln\u00edc\u00edch zapsan\u00e1 v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "1992-06-01",
+                    "platnostDo": "2004-04-30"
+                },
+                {
+                    "kod": "106",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fyzick\u00e1 osoba podnikaj\u00edc\u00ed dle jin\u00fdch z\u00e1kon\u016f ne\u017e \u017eivnostensk\u00e9ho a z\u00e1kona o zem\u011bd\u011blstv\u00ed zapsan\u00e1 v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "2004-05-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "107",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zem\u011bd\u011blsk\u00fd podnikatel - fyzick\u00e1 osoba"
+                        }
+                    ],
+                    "platnostOd": "2004-05-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "108",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zem\u011bd\u011blsk\u00fd podnikatel - fyzick\u00e1 osoba zapsan\u00e1 v obchodn\u00edm rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "2004-05-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "111",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Ve\u0159ejn\u00e1 obchodn\u00ed spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "112",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dnost s ru\u010den\u00edm omezen\u00fdm"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "113",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dnost komanditn\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "114",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dnost komanditn\u00ed na akcie"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "115",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dn\u00fd podnik"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "116",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Z\u00e1jmov\u00e9 sdru\u017een\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "117",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Nadace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "118",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Nada\u010dn\u00ed fond"
+                        }
+                    ],
+                    "platnostOd": "1998-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "121",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Akciov\u00e1 spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "131",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Sv\u00e9pomocn\u00e9 zem\u011bd\u011blsk\u00e9 dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1991-03-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "141",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Obecn\u011b prosp\u011b\u0161n\u00e1 spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "1996-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "145",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010denstv\u00ed vlastn\u00edk\u016f jednotek"
+                        }
+                    ],
+                    "platnostOd": "2000-04-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "151",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Komoditn\u00ed burza"
+                        }
+                    ],
+                    "platnostOd": "2010-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "161",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u00dastav"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "201",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zem\u011bd\u011blsk\u00e9 dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "205",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1991-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "211",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Dru\u017estevn\u00ed podnik zem\u011bd\u011blsk\u00fd"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "231",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "V\u00fdrobn\u00ed dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "232",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spot\u0159ebn\u00ed dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "233",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Bytov\u00e9 dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "234",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Jin\u00e9 dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "241",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Dru\u017estevn\u00ed podnik (s jedn\u00edm zakladatelem)"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "242",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dn\u00fd podnik (s v\u00edce zakladateli)"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "251",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Z\u00e1jmov\u00e1 organizace dru\u017estev"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "261",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spole\u010dn\u00e1 z\u00e1jmov\u00e1 organizace dru\u017estev"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "301",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u00e1tn\u00ed podnik"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "311",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u00e1tn\u00ed banka \u010deskoslovensk\u00e1"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "312",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Banka-st\u00e1tn\u00ed pen\u011b\u017en\u00ed \u00fastav"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "313",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u010cesk\u00e1 n\u00e1rodn\u00ed banka"
+                        }
+                    ],
+                    "platnostOd": "1993-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "314",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u010cesk\u00e1 konsolida\u010dn\u00ed agentura"
+                        }
+                    ],
+                    "platnostOd": "1993-01-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "321",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Rozpo\u010dtov\u00e1 organizace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2001-06-30"
+                },
+                {
+                    "kod": "325",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed slo\u017eka st\u00e1tu"
+                        }
+                    ],
+                    "platnostOd": "2001-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "326",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u00e1l\u00fd rozhod\u010d\u00ed soud"
+                        }
+                    ],
+                    "platnostOd": "2013-04-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "331",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "P\u0159\u00edsp\u011bvkov\u00e1 organizace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "341",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u00e1tn\u00ed hospod\u00e1\u0159sk\u00e1 organizace \u0159\u00edzen\u00e1 okresn\u00edm \u00fa\u0159adem"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "343",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Obecn\u00ed podnik"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "351",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u010ceskoslovensk\u00e9 st\u00e1tn\u00ed dr\u00e1hy - st\u00e1tn\u00ed organizace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "352",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u010cesk\u00e9 dr\u00e1hy"
+                        }
+                    ],
+                    "platnostOd": "1993-01-01",
+                    "platnostDo": "2002-12-31"
+                },
+                {
+                    "kod": "352",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spr\u00e1va \u017eelezni\u010dn\u00ed dopravn\u00ed cesty, st\u00e1tn\u00ed organizace"
+                        }
+                    ],
+                    "platnostOd": "2003-01-01",
+                    "platnostDo": "2020-01-31"
+                },
+                {
+                    "kod": "352",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u00e1tn\u00ed organizace Spr\u00e1va \u017eeleznic"
+                        }
+                    ],
+                    "platnostOd": "2020-02-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "353",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Rada pro ve\u0159ejn\u00fd dohled nad auditem"
+                        }
+                    ],
+                    "platnostOd": "2009-04-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "361",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Ve\u0159ejn\u011b prosp\u011b\u0161n\u00e1 instituce"
+                        }
+                    ],
+                    "platnostOd": "1993-01-01",
+                    "platnostDo": "2001-12-31"
+                },
+                {
+                    "kod": "361",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Ve\u0159ejnopr\u00e1vn\u00ed instituce (\u010cT,\u010cRo,\u010cTK)"
+                        }
+                    ],
+                    "platnostOd": "2002-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "381",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fond (ze z\u00e1kona)"
+                        }
+                    ],
+                    "platnostOd": "1991-06-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "391",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zdravotn\u00ed poji\u0161\u0165ovna"
+                        }
+                    ],
+                    "platnostOd": "1993-05-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "401",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Sdru\u017een\u00ed mezin\u00e1rodn\u00edho obchodu"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "411",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Podnik se zahrani\u010dn\u00ed majetkovou \u00fa\u010dast\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "421",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Od\u0161t\u011bpn\u00fd z\u00e1vod zahrani\u010dn\u00ed pr\u00e1vnick\u00e9 osoby"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "422",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed slo\u017eka zahrani\u010dn\u00edho nada\u010dn\u00edho fondu"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "423",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed slo\u017eka zahrani\u010dn\u00ed nadace"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "424",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zahrani\u010dn\u00ed fyzick\u00e1 osoba"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "425",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Od\u0161t\u011bpn\u00fd z\u00e1vod zahrani\u010dn\u00ed fyzick\u00e9 osoby"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "426",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zastoupen\u00ed zahrani\u010dn\u00ed banky"
+                        }
+                    ],
+                    "platnostOd": "2017-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "431",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Banka - akciov\u00e1 spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-12-31"
+                },
+                {
+                    "kod": "432",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spo\u0159itelna"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-02-01"
+                },
+                {
+                    "kod": "435",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Poji\u0161\u0165ovna - st\u00e1tn\u00ed podnik"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "436",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Poji\u0161\u0165ovna - akciov\u00e1 spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "1991-06-01",
+                    "platnostDo": "2002-12-31"
+                },
+                {
+                    "kod": "437",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Poji\u0161\u0165ovna - dru\u017estvo"
+                        }
+                    ],
+                    "platnostOd": "1991-06-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "438",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Poji\u0161\u0165ovna - dru\u017estevn\u00ed podnik"
+                        }
+                    ],
+                    "platnostOd": "1991-06-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "441",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Podnik zahrani\u010dn\u00edho obchodu"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "442",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u00da\u010delov\u00e1 zahrani\u010dn\u011b obchodn\u00ed organizace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "501",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Od\u0161t\u011bpn\u00fd z\u00e1vod nebo jin\u00e1 organiza\u010dn\u00ed slo\u017eka podniku zapisuj\u00edc\u00ed se do obchodn\u00edho rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "511",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pobo\u010dka st\u00e1tn\u00edho pen\u011b\u017en\u00edho \u00fastavu"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-12-31"
+                },
+                {
+                    "kod": "513",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pobo\u010dka spo\u0159itelny"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-02-01"
+                },
+                {
+                    "kod": "514",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Oblastn\u00ed z\u00e1vod poji\u0161\u0165ovny"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1991-05-28"
+                },
+                {
+                    "kod": "521",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Samostatn\u00e1 drobn\u00e1 provozovna obecn\u00edho \u00fa\u0159adu"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "531",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Oblastn\u00ed organiza\u010dn\u00ed jednotka \u010cD"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "532",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u00da\u010delov\u00e1 organiza\u010dn\u00ed jednotka \u010cD"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "533",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Specializovan\u00e1 organiza\u010dn\u00ed jednotka \u010cD"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-04-30"
+                },
+                {
+                    "kod": "534",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Jednotka st\u00e1tn\u00ed dr\u00e1\u017en\u00ed -technick\u00e1 inspekce"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "535",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Jednotka sboru ozbrojen\u00e9 ochrany \u017eeleznic"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "536",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Jednotka dr\u00e1\u017en\u00edho spr\u00e1vn\u00edho \u00fa\u0159adu"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "541",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pod\u00edlov\u00fd, penzijn\u00ed fond"
+                        }
+                    ],
+                    "platnostOd": "1993-09-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "601",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Vysok\u00e1 \u0161kola (ve\u0159ejn\u00e1, st\u00e1tn\u00ed)"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "602",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Fakulta vysok\u00e9 \u0161koly"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1998-12-31"
+                },
+                {
+                    "kod": "603",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Jin\u00e9 pracovi\u0161t\u011b vysok\u00e9 \u0161koly / fakulty"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "1998-12-31"
+                },
+                {
+                    "kod": "611",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "St\u0159edn\u00ed \u0161kola"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2005-01-01"
+                },
+                {
+                    "kod": "621",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Z\u00e1kladn\u00ed \u0161kola"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2005-01-01"
+                },
+                {
+                    "kod": "625",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u0160kolsk\u00e9 za\u0159\u00edzen\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1991-10-01",
+                    "platnostDo": "2005-01-01"
+                },
+                {
+                    "kod": "631",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "P\u0159ed\u0161koln\u00ed za\u0159\u00edzen\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1991-10-01",
+                    "platnostDo": "2005-01-01"
+                },
+                {
+                    "kod": "641",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "\u0160kolsk\u00e1 pr\u00e1vnick\u00e1 osoba"
+                        }
+                    ],
+                    "platnostOd": "2005-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "651",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zdravotnick\u00e9 za\u0159\u00edzen\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1991-07-01",
+                    "platnostDo": "2000-12-31"
+                },
+                {
+                    "kod": "661",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Ve\u0159ejn\u00e1 v\u00fdzkumn\u00e1 instituce"
+                        }
+                    ],
+                    "platnostOd": "2005-09-13",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "671",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Ve\u0159ejn\u00e9 neziskov\u00e9 \u00fastavn\u00ed zdravotnick\u00e9 za\u0159\u00edzen\u00ed"
+                        }
+                    ],
+                    "platnostOd": "2006-06-01",
+                    "platnostDo": "2011-12-30"
+                },
+                {
+                    "kod": "701",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Sdru\u017een\u00ed (svaz, spolek, spole\u010dnost, klub aj.)"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2013-12-31"
+                },
+                {
+                    "kod": "702",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Poji\u0161\u0165ovac\u00ed spolek"
+                        }
+                    ],
+                    "platnostOd": "1991-06-01",
+                    "platnostDo": "1992-12-31"
+                },
+                {
+                    "kod": "703",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Odborov\u00e1 organizace a organizace zam\u011bstnavatel\u016f"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "2018-01-31"
+                },
+                {
+                    "kod": "704",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zvl\u00e1\u0161tn\u00ed organizace pro zastoupen\u00ed \u010desk\u00fdch z\u00e1jm\u016f v mezin\u00e1rodn\u00edch nevl\u00e1dn\u00edch organizac\u00edch"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "705",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Podnik nebo hospod\u00e1\u0159sk\u00e9 za\u0159\u00edzen\u00ed sdru\u017een\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "706",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Spolek"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "707",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Odborov\u00e1 organizace"
+                        }
+                    ],
+                    "platnostOd": "2017-11-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "708",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organizace zam\u011bstnavatel\u016f"
+                        }
+                    ],
+                    "platnostOd": "2017-11-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "711",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Politick\u00e1 strana, politick\u00e9 hnut\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "715",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Podnik nebo hospod\u00e1\u0159sk\u00e9 za\u0159\u00edzen\u00ed politick\u00e9 strany"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "721",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "C\u00edrkevn\u00ed organizace a n\u00e1bo\u017eensk\u00e9 spole\u010dnosti"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2016-12-31"
+                },
+                {
+                    "kod": "721",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "C\u00edrkve a n\u00e1bo\u017eensk\u00e9 spole\u010dnosti"
+                        }
+                    ],
+                    "platnostOd": "2017-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "722",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Evidovan\u00e9 c\u00edrkevn\u00ed pr\u00e1vnick\u00e9 osoby"
+                        }
+                    ],
+                    "platnostOd": "2017-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "723",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Svazy c\u00edrkv\u00ed a n\u00e1bo\u017eensk\u00fdch spole\u010dnost\u00ed"
+                        }
+                    ],
+                    "platnostOd": "2017-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "731",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed jednotka sdru\u017een\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2017-12-31"
+                },
+                {
+                    "kod": "732",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed jednotka politick\u00e9 strany, politick\u00e9ho hnut\u00ed"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2013-03-31"
+                },
+                {
+                    "kod": "733",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed jednotka odborov\u00e9 organizace a organizace zam\u011bstnavatel\u016f"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "734",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed jednotka zvl\u00e1\u0161tn\u00ed organizace pro zastoupen\u00ed \u010desk\u00fdch z\u00e1jm\u016f v mezin\u00e1rodn\u00edch nevl\u00e1dn\u00edch organizac\u00edch"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "736",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pobo\u010dn\u00fd spolek"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "741",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Stavovsk\u00e1 organizace - profesn\u00ed komora"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "745",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Komora (s v\u00fdjimkou profesn\u00edch komor)"
+                        }
+                    ],
+                    "platnostOd": "1992-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "751",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Z\u00e1jmov\u00e9 sdru\u017een\u00ed pr\u00e1vnick\u00fdch osob"
+                        }
+                    ],
+                    "platnostOd": "1992-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "761",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Honebn\u00ed spole\u010denstvo"
+                        }
+                    ],
+                    "platnostOd": "2002-07-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "771",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Dobrovoln\u00fd svazek obc\u00ed"
+                        }
+                    ],
+                    "platnostOd": "2001-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "801",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Obec (obecn\u00ed \u00fa\u0159ad)"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2001-12-31"
+                },
+                {
+                    "kod": "801",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Obec nebo m\u011bstsk\u00e1 \u010d\u00e1st hlavn\u00edho m\u011bsta Prahy"
+                        }
+                    ],
+                    "platnostOd": "2002-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "802",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Okresn\u00ed \u00fa\u0159ad"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "2002-12-31"
+                },
+                {
+                    "kod": "804",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Kraj a hl.m.Praha"
+                        }
+                    ],
+                    "platnostOd": "2000-11-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "805",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Region\u00e1ln\u00ed rada regionu soudr\u017enosti"
+                        }
+                    ],
+                    "platnostOd": "2006-07-01",
+                    "platnostDo": "2021-12-31"
+                },
+                {
+                    "kod": "901",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zastupitelsk\u00fd org\u00e1n jin\u00fdch st\u00e1t\u016f"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "906",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zahrani\u010dn\u00ed spolek"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "907",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Mezin\u00e1rodn\u00ed odborov\u00e1 organizace"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "908",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Mezin\u00e1rodn\u00ed organizace zam\u011bstnavatel\u016f"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "911",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zahrani\u010dn\u00ed kulturn\u00ed, informa\u010dn\u00ed st\u0159edisko, rozhlasov\u00e1, tiskov\u00e1 a televizn\u00ed agentura"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "921",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Mezin\u00e1rodn\u00ed nevl\u00e1dn\u00ed organizace"
+                        }
+                    ],
+                    "platnostOd": "1900-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "922",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Organiza\u010dn\u00ed jednotka mezin\u00e1rodn\u00ed nevl\u00e1dn\u00ed organizace"
+                        }
+                    ],
+                    "platnostOd": "2010-07-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "931",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Evropsk\u00e9 hospod\u00e1\u0159sk\u00e9 z\u00e1jmov\u00e9 sdru\u017een\u00ed"
+                        }
+                    ],
+                    "platnostOd": "2004-06-15",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "932",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Evropsk\u00e1 spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "2004-12-14",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "933",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Evropsk\u00e1 dru\u017estevn\u00ed spole\u010dnost"
+                        }
+                    ],
+                    "platnostOd": "2006-08-18",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "936",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Zahrani\u010dn\u00ed pobo\u010dn\u00fd spolek"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "937",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pobo\u010dn\u00e1 mezin\u00e1rodn\u00ed odborov\u00e1 organizace"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "2017-12-31"
+                },
+                {
+                    "kod": "938",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pobo\u010dn\u00e1 mezin\u00e1rodn\u00ed organizace zam\u011bstnavatel\u016f"
+                        }
+                    ],
+                    "platnostOd": "2014-01-01",
+                    "platnostDo": "2017-12-31"
+                },
+                {
+                    "kod": "941",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Evropsk\u00e9 seskupen\u00ed pro \u00fazemn\u00ed spolupr\u00e1ci"
+                        }
+                    ],
+                    "platnostOd": "2008-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "950",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Subjekt pr\u00e1vn\u00edm \u0159\u00e1dem v\u00fdslovn\u011b neupraven\u00fd"
+                        }
+                    ],
+                    "platnostOd": "2007-07-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "951",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Mezin\u00e1rodn\u00ed vojensk\u00e1 organizace vznikl\u00e1 na z\u00e1klad\u011b mezin\u00e1rodn\u00ed smlouvy"
+                        }
+                    ],
+                    "platnostOd": "2018-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "952",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Konsorcium evropsk\u00e9 v\u00fdzkumn\u00e9 infrastruktury"
+                        }
+                    ],
+                    "platnostOd": "2020-01-01",
+                    "platnostDo": "9999-09-09"
+                },
+                {
+                    "kod": "960",
+                    "nazev": [
+                        {
+                            "kodJazyka": "cs",
+                            "nazev": "Pr\u00e1vnick\u00e1 osoba z\u0159\u00edzen\u00e1 zvl\u00e1\u0161tn\u00edm z\u00e1konem zapisovan\u00e1 do ve\u0159ejn\u00e9ho rejst\u0159\u00edku"
+                        }
+                    ],
+                    "platnostOd": "2016-06-01",
+                    "platnostDo": "9999-09-09"
+                }
+            ],
+            "zdrojCiselniku": "res"
+        }
+    ]
+}

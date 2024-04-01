@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "ID Gender": 1,
+            "Gender": "Male",
+            "ID Year": 2021,
+            "Year": "2021",
+            "Total Population": 1402673,
+            "Total Population MOE Appx": 29015.312262962107,
+            "Record Count": 64977,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 2,
+            "Gender": "Female",
+            "ID Year": 2021,
+            "Year": "2021",
+            "Total Population": 324591,
+            "Total Population MOE Appx": 13980.706689955508,
+            "Record Count": 15444,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 1,
+            "Gender": "Male",
+            "ID Year": 2020,
+            "Year": "2020",
+            "Total Population": 1268944,
+            "Total Population MOE Appx": 27602.637285017023,
+            "Record Count": 59010,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 2,
+            "Gender": "Female",
+            "ID Year": 2020,
+            "Year": "2020",
+            "Total Population": 295706,
+            "Total Population MOE Appx": 13344.678423113215,
+            "Record Count": 13981,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 1,
+            "Gender": "Male",
+            "ID Year": 2019,
+            "Year": "2019",
+            "Total Population": 1145155,
+            "Total Population MOE Appx": 26226.461533659785,
+            "Record Count": 55728,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 2,
+            "Gender": "Female",
+            "ID Year": 2019,
+            "Year": "2019",
+            "Total Population": 267806,
+            "Total Population MOE Appx": 12700.058934104223,
+            "Record Count": 13294,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 1,
+            "Gender": "Male",
+            "ID Year": 2018,
+            "Year": "2018",
+            "Total Population": 1029080,
+            "Total Population MOE Appx": 24866.014481890394,
+            "Record Count": 49806,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        },
+        {
+            "ID Gender": 2,
+            "Gender": "Female",
+            "ID Year": 2018,
+            "Year": "2018",
+            "Total Population": 238581,
+            "Total Population MOE Appx": 11987.598387321239,
+            "Record Count": 11763,
+            "PUMS Occupation": "Software developers",
+            "ID PUMS Occupation": "151252",
+            "Slug PUMS Occupation": "software-developers"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Total Population",
+                "Total Population MOE Appx",
+                "Record Count"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) Public Use Microdata Sample (PUMS) files are a set of untabulated records about individual people or housing units. The Census Bureau produces the PUMS files so that data users can create custom tables that are not available through pretabulated (or summary) ACS data products.",
+                "dataset_name": "ACS PUMS 5-Year Estimate",
+                "dataset_link": "https://www.census.gov/programs-surveys/acs/microdata.html",
+                "subtopic": "Demographics",
+                "table_id": "PUMS",
+                "topic": "Diversity",
+                "hidden_measures": "ygbpop RCA,ygopop RCA,ygipop RCA,yocpop RCA,yiopop RCA,ycbpop RCA"
+            },
+            "name": "pums_5",
+            "substitutions": []
+        }
+    ]
+}
