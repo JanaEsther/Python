@@ -3,7 +3,7 @@ import json
 
 res = requests.get("https://wad.datausa.io/api/data?PUMS%20Occupation=151252&drilldowns=Gender&measure=Total%20Population,Total%20Population%20MOE%20Appx,Record%20Count&Record%20Count%3E=5")
 data = res.json()
-with open("data.json", "w", encoding="utf-8"() )as file:
+with open("data.json", "w", encoding="utf-8")as file:
      json.dump (data, file)
 print(data["data"])
 
