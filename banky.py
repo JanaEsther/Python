@@ -3,11 +3,11 @@ import sys
 # Otevření souboru pro zápis
 with open('balance.txt', 'w', encoding="utf-8") as file:
     # Zápis počátečního zůstatku na účtu
-    file.write(10000)  # Například 10 000 Kč
+    file.write("10000")  # Například 10 000 Kč
     
-with open('balance.txt',  encoding="utf-8") as file:
+with open('balance.txt', encoding="utf-8") as file:
     account_balance = int(file.read())
-    print(account_balance, file=file)
+    print(account_balance)
 
 try:
     
@@ -16,7 +16,7 @@ try:
         raise ValueError
     account_balance = account_balance - money_withdraw
     with open('balance.txt', 'w') as file:
-        print(account_balance)
+        file.write(str(account_balance))
 except ValueError:
     print(f"Zadej kladné číslo, které je větší než {account_balance}")
 except FileNotFoundError:
