@@ -1,0 +1,4 @@
+2024-04-20 14:27:58,174 - DEBUG - [kostky_log.py:18] <module>(): Výše sázky 200,s součet.
+2024-04-20 14:27:58,174 - INFO - [kostky_log.py:32] <module>(): Uživatel nevyhrál.
+2024-04-20 14:27:58,174 - DEBUG - [kostky_log.py:34] <module>(): Hra skončila.
+2024-04-20 14:27:58,174 - DEBUG - [kostky_log.py:13] hra(): Hra začíná.
